@@ -4,6 +4,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
+
+os.chdir("/Users/danieljerman/Documents/Machine-Learning-A-Z-course/Part 1 - Data Preprocessing")
 
 # Importing the dataset
 dataset = pd.read_csv('Data.csv')
